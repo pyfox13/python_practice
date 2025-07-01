@@ -1,12 +1,12 @@
 
 
 # ------------------------------
-# ✅ Import NumPy
+# Import NumPy
 # ------------------------------
 import numpy as np
 
 # ------------------------------
-# ✅ Creating 1D and 2D Arrays
+# Creating 1D and 2D Arrays
 # ------------------------------
 
 # Creating a 1D array (like a Python list)
@@ -26,7 +26,7 @@ print("Dimensions:", arr2.ndim) # 2D
 print("Size:", arr2.size)       # 4 elements total
 
 # ------------------------------
-# ✅ More Practice Arrays
+#  More Practice Arrays
 # ------------------------------
 
 # A 3x3 matrix
@@ -47,7 +47,7 @@ np_nums = np.array(nums)
 print("Double the array:", np_nums * 2)
 
 # ------------------------------
-# ✅ Special Arrays
+# Special Arrays
 # ------------------------------
 
 zeros_array = np.zeros((2, 3))         # 2x3 matrix filled with 0s
@@ -63,7 +63,7 @@ print("Arange:\n", arange_array)
 print("Linspace:\n", linspace_array)
 
 # ------------------------------
-# ✅ Math & Broadcasting
+# Math & Broadcasting
 # ------------------------------
 
 a = np.array([1, 2, 3])
@@ -78,7 +78,7 @@ matrix = np.array([[1, 2, 3], [4, 5, 6]])
 print("matrix + a =\n", matrix + a)
 
 # ------------------------------
-# ✅ Indexing & Slicing
+# Indexing & Slicing
 # ------------------------------
 
 arr = np.array([[10, 20, 30], [40, 50, 60]])
@@ -88,7 +88,7 @@ print("Element (1,2):", arr[1, 2])   # Value at row 1, col 2
 print("Slice:", arr[0:2, 1:])        # Subarray of rows 0-1, cols 1-end
 
 # ------------------------------
-# ✅ Boolean Indexing
+#  Boolean Indexing
 # ------------------------------
 
 x = np.array([1, 2, 3, 4, 5])
@@ -98,7 +98,7 @@ x[x % 2 == 0] = 0                    # Replace even numbers with 0
 print("After replacing evens:", x)
 
 # ------------------------------
-# ✅ Fake Image Simulation
+# Fake Image Simulation
 # ------------------------------
 
 image = np.random.randint(0, 255, (5, 5))  # Random pixel values in 5x5 grid
@@ -108,7 +108,7 @@ print("Max:", np.max(image))              # Brightest pixel
 print("Argmax:", np.argmax(image))        # Index of brightest pixel (flattened)
 
 # ------------------------------
-# ✅ Quick Practice
+# Quick Practice
 # ------------------------------
 
 matrix = np.array([[1, 2, 3], [4, 5, 6], [7, 8, 9]])
@@ -118,7 +118,7 @@ print("Modified matrix:\n", matrix)
 print("Row means:", np.mean(matrix, axis=1))  # Mean across each row
 
 # ------------------------------
-# ✅ Student Grades Project
+# Student Grades Project
 # ------------------------------
 
 grades = np.random.randint(50, 100, size=(10, 5))  # 10 students × 5 subjects
