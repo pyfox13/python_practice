@@ -1,0 +1,63 @@
+virtual environments:
+
+
+its like a way to isolte the python packages. It helps t run mulitple projects locally without causing dipendency erros.
+
+
+ProjectA - which uses python 3.1 
+ProjectB - which uses python 3.8
+
+
+when you install python globally ( ont isolated in  a virutal environment or a docker container ) .
+
+
+- vritual environment is like a sandbox- a self contained directory that has:
+1. it s own python interpreter
+2. Its own set of installed packages.
+
+This helps us to 
+1. avoid conflicts between project dipendencies.
+2. Use different versions of packages for different porjects.
+3. Keep your global python clean
+
+
+command to create virtual environment
+
+python3 -m venv <name of the virtual environment>
+
+
+
+JSON- 
+
+JSON refers to Javascript Object Notation. It is a format for sending and receving data.
+
+You can think of JSON as a simple, human-readable text format that looks like a python dict.
+
+{
+    "name": "avishkar",
+    "age": 21
+}
+
+JSON is used by nearly every web API:
+1. its easy to read.
+2. Its easy to parse( for machines)
+3. Its a language-independent. (it works very will with python, js, java, etc)
+
+
+Why do we use json when calling an api
+when you call a web api, you are actually asking the server for information or sending it data.
+
+That server needs a standout format it can understand, and JSON is the standard.
+
+an example of sending data to sever.
+
+
+import requests
+
+data = {
+    "name": "avishkar,
+    "age:: 21
+}
+
+response = requests.post("https://api.healthcare.com/register, json=data)
+

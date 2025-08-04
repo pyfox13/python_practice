@@ -1,0 +1,30 @@
+a web api
+API - Application Programming Interface 
+it allows applications to commnicate with each other over the internet using HTTP.
+
+
+
+you wrote python script that asks a server, what's the weather in New york.
+
+the server like its 75....
+
+
+
+
+
+
+tv - netlifx is the client
+opened netflix.
+the first it shouws you is to login.
+
+
+once you enter your username and pw.
+
+you are making a http call ( request) to the netflix server.
+
+now the netflix server revcevis your request and validates it.
+
+after that it give you a response.
+
+
+
